@@ -1,0 +1,4 @@
+(executable
+ (public_name networking)
+ (name example)
+ (libraries eio_main eio.mock))

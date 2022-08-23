@@ -1,0 +1,22 @@
+(lang dune 3.3)
+
+(name eio_examples)
+
+(generate_opam_files true)
+
+(source
+ (github lmdexpr/effect-examples))
+
+(authors "Yuki Tajiri")
+
+(maintainers "Yuki Tajiri <lmdexpr@gmail.com>")
+
+(package
+ (name eio_examples)
+ (synopsis "Eio examples")
+ (depends
+   (ocaml (>= 5.0.0))
+   ocamlformat
+   ;ocaml-lsp-server
+   dune
+   eio_main))
