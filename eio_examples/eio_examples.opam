@@ -8,6 +8,7 @@ bug-reports: "https://github.com/lmdexpr/effect-examples/issues"
 depends: [
   "ocaml" {>= "5.0.0"}
   "ocamlformat"
+  "ocaml-lsp-server"
   "dune" {>= "3.3"}
   "eio_main"
   "odoc" {with-doc}

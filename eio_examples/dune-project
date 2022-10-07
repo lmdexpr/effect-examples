@@ -17,6 +17,6 @@
  (depends
    (ocaml (>= 5.0.0))
    ocamlformat
-   ;ocaml-lsp-server
+   ocaml-lsp-server
    dune
    eio_main))
